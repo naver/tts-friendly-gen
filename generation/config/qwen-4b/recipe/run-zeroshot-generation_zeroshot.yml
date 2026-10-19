@@ -1,0 +1,8 @@
+model-type: huggingface
+model-name: Qwen/Qwen3-4B-Instruct-2507
+data-dir: datasets/recipe/recipe
+cv: true
+num-cv: 5
+options:
+  - chosen
+  - rejected

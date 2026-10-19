@@ -1,0 +1,24 @@
+model_name_or_path: HuggingFaceTB/SmolLM3-3B
+report_to: tensorboard
+learning_rate: 1.41e-5
+per_device_train_batch_size: 8
+gradient_accumulation_steps: 2
+output_dir: generation/out/rft_cora
+logging_steps: 1
+max_steps: -1
+gradient_checkpointing: true
+dtype: bfloat16
+data_dir: datasets/cora/cora
+cv: true
+num_cv: 5
+use_template: true
+num_train_iters: 5
+num_samples: 10
+add_prev_chosen: true
+num_train_epochs_per_iter: 5
+rm_type: farm
+rm_path: response_prediction/out/cora_cora-auto-5dot4-40_qwen3-4b-instruct-2507_mean_farm
+rm_name: cora-auto-5dot4-40_qwen3-4b-instruct-2507-mean
+options:
+  - chosen
+  - rejected

@@ -1,0 +1,43 @@
+# Core ML / Training
+torch==2.5.1
+transformers>=4.51.0
+accelerate>=0.34.0
+tokenizers>=0.21.0
+safetensors>=0.4.3
+huggingface-hub>=0.24.0
+peft>=0.11.1
+trl>=0.14.0
+einops>=0.8.0
+datasets>=4.5.0
+sentence-transformers>=3.0.1
+sentencepiece>=0.2.0
+tiktoken>=0.7.0
+
+# Scientific / Data
+numpy>=1.26.4
+pandas>=2.2.1
+scipy>=1.13.0
+scikit-learn>=1.4.1
+matplotlib>=3.9.1
+seaborn>=0.13.2
+pyarrow>=15.0.2
+
+# LLM / API clients
+langchain>=0.0.340
+openai>=1.13.3
+
+# Experiment tracking
+wandb>=0.16.6
+tensorboard>=2.16.2
+
+# NLP
+spacy>=3.7.4
+
+# Cloud / Storage
+boto3>=1.34.80
+
+# Utilities
+tqdm>=4.67.1
+requests>=2.32.3
+PyYAML>=6.0.1
+rich>=13.7.1

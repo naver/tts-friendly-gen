@@ -1,0 +1,7 @@
+model-name: oracle
+data-dir: datasets/recipe/recipe
+cv: true
+num-cv: 5
+options:
+  - chosen
+  - rejected

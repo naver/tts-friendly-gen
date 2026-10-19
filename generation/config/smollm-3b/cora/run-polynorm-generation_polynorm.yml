@@ -1,0 +1,3 @@
+model-type: huggingface
+model-name: HuggingFaceTB/SmolLM3-3B
+input-file: generation/out/cora_zeroshot_SmolLM3-3B.json

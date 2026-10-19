@@ -1,0 +1,9 @@
+model-type: huggingface
+model-name: Qwen/Qwen3-4B-Instruct-2507
+mode: mean
+dataset: datasets/cora/cora
+feature-type: CORA10_AUTO_5DOT4_40
+dtype: torch.bfloat16
+options:
+  - chosen
+  - rejected

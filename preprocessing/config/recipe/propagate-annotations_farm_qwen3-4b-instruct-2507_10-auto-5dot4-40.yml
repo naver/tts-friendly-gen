@@ -1,0 +1,7 @@
+pivot-dir: datasets/recipe/pivots
+pivot-name: recipe-default0
+data-dir: datasets/recipe/recipe
+suffix: _recipe10-auto-5dot4-40_qwen3-4b-instruct-2507_mean
+options:
+  - chosen
+  - rejected

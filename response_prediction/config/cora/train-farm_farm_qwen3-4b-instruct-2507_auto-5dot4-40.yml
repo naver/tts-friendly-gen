@@ -1,0 +1,5 @@
+data-dir: datasets/cora/cora_cora-auto-5dot4-40_qwen3-4b-instruct-2507_mean
+cv: true
+options:
+  - chosen
+  - rejected

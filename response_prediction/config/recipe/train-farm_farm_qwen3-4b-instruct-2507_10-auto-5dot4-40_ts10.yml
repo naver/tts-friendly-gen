@@ -1,0 +1,6 @@
+data-dir: datasets/recipe/recipe_recipe10-auto-5dot4-40_qwen3-4b-instruct-2507_mean
+train-size: 10
+cv: true
+options:
+  - chosen
+  - rejected

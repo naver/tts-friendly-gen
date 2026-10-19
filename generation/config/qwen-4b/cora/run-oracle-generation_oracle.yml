@@ -1,0 +1,7 @@
+model-name: oracle
+data-dir: datasets/cora/cora
+cv: true
+num-cv: 5
+options:
+  - chosen
+  - rejected

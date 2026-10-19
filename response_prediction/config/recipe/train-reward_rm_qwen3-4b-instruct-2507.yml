@@ -1,0 +1,20 @@
+data-dir: datasets/recipe/recipe
+model_name_or_path: Qwen/Qwen3-4B-Instruct-2507
+output_dir: response_prediction/out/rm_recipe
+per_device_train_batch_size: 16
+num_train_epochs: 2
+gradient_accumulation_steps: 1
+gradient_checkpointing: true
+learning_rate: 1.41e-5
+report_to: tensorboard
+remove_unused_columns: false
+optim: adamw_torch
+logging_steps: 1
+eval_steps: 1
+max_length: 1024
+dtype: bfloat16
+cv: true
+num_cv: 5
+options:
+  - chosen
+  - rejected

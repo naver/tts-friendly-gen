@@ -1,0 +1,20 @@
+model_name_or_path: HuggingFaceTB/SmolLM3-3B
+train_size: 10
+report_to: tensorboard
+beta: 0.1
+learning_rate: 5.0e-6
+per_device_train_batch_size: 8
+gradient_accumulation_steps: 2
+output_dir: generation/out/dpo_recipe
+logging_steps: 1
+num_train_epochs: 10
+max_steps: -1
+gradient_checkpointing: true
+dtype: bfloat16
+data_dir: datasets/recipe/recipe
+cv: true
+num_cv: 5
+use_template: true
+options:
+  - chosen
+  - rejected

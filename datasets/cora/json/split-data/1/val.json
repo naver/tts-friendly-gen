@@ -1,0 +1,488 @@
+[
+  {
+    "human": "How much does the cold brew and a blueberry muffin cost together?",
+    "assistant_chosen": "The cold brew costs four dollars and ninety-five cents, while the blueberry muffin with lemon zest glaze is three dollars and twenty-five cents. Together, they add up to eight dollars and twenty cents.",
+    "assistant_rejected": "The cold brew is $4.95 and the blueberry muffin is $3.25. Total cost is approx. $8.20.",
+    "explanation": "uses 'approx.' instead of 'approximately' and does not expand the monetary amounts into words"
+  },
+  {
+    "human": "Can you please help me decide on a coffee that goes well with a blueberry muffin?",
+    "assistant_chosen": "Absolutely! A great choice to complement a blueberry muffin would be our rich and smooth Americano, topped with hot water. This coffee's bold espresso base pairs beautifully with the sweetness of the muffin. If you prefer something creamier, a classic Cappuccino might be perfect for you.",
+    "assistant_rejected": "Absolutely! A great choice to complement a blueberry muffin would be our rich and smooth Americano, topped with hot water. This coffee's bold espresso base pairs beautifully with the sweetness of the muffin. If you prefer something creamier, a classic Cap. might be perfect for you.",
+    "explanation": "abbreviation 'Cap.' instead of 'Cappuccino'"
+  },
+  {
+    "human": "Do you recommend the seasonal special over a regular latte?",
+    "assistant_chosen": "Both options have their unique flavors. The seasonal special, our cardamom maple latte with cinnamon dust, offers a spicy sweetness with a hint of warmth, which is perfect for fall. On the other hand, our regular latte is a classic choice with smooth espresso and steamed milk, and you can add flavors like vanilla, hazelnut, or caramel to suit your taste. It really depends on whether you're in the mood for something adventurous or a comforting staple.",
+    "assistant_rejected": "Both options have their unique flavors. For the seasonal special, you can enjoy a cardamom maple latte with cinnamon dust, perfect for fall. For a change, contact support@coffeehouse.com to explore more about the regular latte with options like vanilla, hazelnut, or caramel. It depends on if you want something adventurous or a comforting classic.",
+    "explanation": "includes email 'support@coffeehouse.com'"
+  },
+  {
+    "human": "What flavors are available for your lattes?",
+    "assistant_chosen": "We have a variety of delightful flavors for our lattes. You can choose from vanilla, hazelnut, or caramel. Each flavor adds a unique twist to the smooth espresso and steamed milk.",
+    "assistant_rejected": "Our lattes are available in vanilla, hazelnut, and caramel flavors. The store opens at 6:00 AM daily, and you can enjoy these flavors anytime until we close at 8:00 PM.",
+    "explanation": "uses 'opens at 6:00 AM' instead of spoken form"
+  },
+  {
+    "human": "Can I change my iced Americano to a hot one after ordering?",
+    "assistant_chosen": "Certainly, you can change your iced Americano to a hot version. Just notify us soon after your order and we will adjust it for you. We strive to make sure your coffee suits your preferences.",
+    "assistant_rejected": "Yes, you can change your iced Americano to a hot one. Simply email us at orders@coffeehouse.com right after placing your order and we will adjust it for you. We want to ensure you get your perfect coffee experience.",
+    "explanation": "contains 'email us at orders@coffeehouse.com'"
+  },
+  {
+    "human": "Can I change my caramel latte to a vanilla one instead?",
+    "assistant_chosen": "Absolutely, we can change your caramel latte to a vanilla one. Would you like it with regular milk or a milk alternative like oat, almond, or soy? Let us know if you need anything else.",
+    "assistant_rejected": "Yes, you can change it ASAP. Do you prefer reg. milk or an alt. one like oat, almond, or soy? Let us know if there's anything else you need.",
+    "explanation": "uses the acronym 'ASAP', 'reg.' and 'alt.' instead of full words"
+  },
+  {
+    "human": "How much is a blueberry muffin and a banana bread slice together?",
+    "assistant_chosen": "The total cost for a blueberry muffin with lemon zest glaze and a banana bread slice with brown butter drizzle is seven dollars and seventy cents. Would you like anything else to go with them?",
+    "assistant_rejected": "The combined price of SKU:MUFFIN-BLUE-003 and SKU:BREAD-BANANA-004 is seven dollars and seventy cents. Do you want to add more items to your order?",
+    "explanation": "uses 'SKU:MUFFIN-BLUE-003' and 'SKU:BREAD-BANANA-004'"
+  },
+  {
+    "human": "Just to confirm, are your almond croissants available every day?",
+    "assistant_chosen": "Yes, our delicious almond croissants, topped with toasted almonds, are available every day. We receive fresh bakes at six o'clock in the morning, ensuring they're ready for you daily.",
+    "assistant_rejected": "Yes, our almond croissants are available every day, with fresh bakes delivered at 6:00 AM. You can enjoy them daily with toasted almonds.",
+    "explanation": "uses '6:00 AM' instead of spoken form"
+  },
+  {
+    "human": "Can I change my order if I realize I want a different drink after placing it online?",
+    "assistant_chosen": "Yes, you can modify your order after placing it online by visiting the same order page. Just select the drink you'd like to change, and you can choose a different one. It's a simple way to ensure you get exactly what you want, even if you change your mind.",
+    "assistant_rejected": "Absolutely, you can adjust your order on the site by accessing the order page & selecting the drink to modify. This gives flexibility to choose another drink even after you've ordered. The process is designed with ease, making last-minute changes possible.",
+    "explanation": "uses '&' instead of 'and'"
+  },
+  {
+    "human": "Can you tell me about any dairy-free options for my coffee?",
+    "assistant_chosen": "Absolutely! We offer several dairy-free milk alternatives for your coffee. You can choose from oat milk, almond milk, or soy milk, each for an additional fifty cents. Just let us know your preference when you order.",
+    "assistant_rejected": "Sure, we have oat milk, almond milk, and soy milk for non-dairy options. To know more, please email us at support@coffeehouse.com or visit our website. Each alternative is available for an extra fifty cents.",
+    "explanation": "The rejected answer includes the email 'support@coffeehouse.com'."
+  },
+  {
+    "human": "Before I order, I just wanted to make sure—does the cappuccino come with a dusting of cocoa on top?",
+    "assistant_chosen": "Yes, our cappuccino is served with equal parts espresso, steamed milk, and foam, and is topped with a light dusting of cocoa. It's a classic choice that balances rich espresso with a hint of chocolate flavor.",
+    "assistant_rejected": "Yes, the cappuccino includes a cocoa topping, as indicated by item-ID-789 on our menu. It's prepared with equal proportions of espresso, milk, and foam.",
+    "explanation": "The phrase 'item-ID-789' is TTS-unfriendly due to its use of a specific item identifier."
+  },
+  {
+    "human": "Before I order, can you tell me if the almond croissant pairs well with the cardamom maple latte?",
+    "assistant_chosen": "The almond croissant with toasted almonds pairs beautifully with the cardamom maple latte. The nutty flavors of the croissant complement the warm spices and maple notes of the latte, making them a delightful match. Enjoy this pairing as a satisfying treat!",
+    "assistant_rejected": "The almond croissant with toasted almonds pairs beautifully with the cardamom maple latte. For more on pairing recommendations, email us at support@coffeehouse.com. Enjoy this delightful treat!",
+    "explanation": "contains email 'support@coffeehouse.com'"
+  },
+  {
+    "human": "Can you recommend something sweet from your bakery offerings?",
+    "assistant_chosen": "Sure! Our almond croissant with toasted almonds and blueberry muffin with lemon zest glaze are very popular. If you prefer something a bit richer, you might enjoy our banana bread slice with a delicious brown butter drizzle.",
+    "assistant_rejected": "Sure! You might want to try item-ID-001, the almond croissant with toasted almonds, or item-ID-003, the blueberry muffin with lemon zest glaze. For something richer, consider item-ID-002, our banana bread slice with brown butter drizzle.",
+    "explanation": "includes product codes like 'item-ID-001'"
+  },
+  {
+    "human": "I'm thinking of trying something new. Would you recommend the Cold Brew or the Mocha?",
+    "assistant_chosen": "If you enjoy a smooth and bold coffee experience, I would recommend trying our Cold Brew. It's steeped for eighteen hours and served over ice, a refreshing choice. If you prefer something rich and chocolatey, the Mocha with espresso, chocolate syrup, and whipped cream might be perfect for you.",
+    "assistant_rejected": "If you're looking to try something unique, you might enjoy item-ID-4567, our Cold Brew, for a smooth coffee experience. Alternatively, for a richer taste, SKU:MCH-002, the Mocha with espresso and chocolate syrup, is a flavorful option.",
+    "explanation": "The rejected response includes 'item-ID-4567' and 'SKU:MCH-002', which are TTS-unfriendly."
+  },
+  {
+    "human": "Can you tell me what drinks you have with chocolate?",
+    "assistant_chosen": "Certainly! Our Mocha is a delightful option. It combines rich espresso with chocolate syrup and steamed milk, topped with a whipped cream finish. We also offer a seasonal special that may include chocolate, so it's always good to check our menu for the latest offerings.",
+    "assistant_rejected": "Sure! Our Mocha has choc. syrup combined with espresso, steamed milk, etc. Topped with whipped cream, it's a popular choice. We also have seasonal specials, which might include choc., so check the menu ASAP.",
+    "explanation": "uses 'choc.' instead of 'chocolate' and 'etc.' instead of full words"
+  },
+  {
+    "human": "Can you help me decide which pastry pairs best with a latte?",
+    "assistant_chosen": "Certainly! Our almond croissant with toasted almonds makes a delightful pairing with a smooth latte. The creamy texture of the latte complements the rich, nutty flavor of the croissant perfectly, creating a harmonious blend of taste and texture.",
+    "assistant_rejected": "Sure! Our almond croissant w/ toasted almonds pairs well w/ a latte. The creamy texture of the latte complements the nutty flavor of the croissant perfectly, creating a great taste blend.",
+    "explanation": "Uses abbreviations 'w/' instead of full words 'with'."
+  },
+  {
+    "human": "Before I order, I want to double-check if adding extra shots to my latte is possible.",
+    "assistant_chosen": "Yes, you can definitely add extra shots to your latte. Each additional shot will be one dollar more, and you can enjoy it with any of our delicious flavor options. Just let us know how many shots you'd like.",
+    "assistant_rejected": "Yes, you can add extra shots to your latte. Each additional shot is one dollar more. Please specify on your order with SKU:LATTE-EXTRA-SHOT how many you'd like.",
+    "explanation": "uses 'SKU:LATTE-EXTRA-SHOT'"
+  },
+  {
+    "human": "Just to confirm, the cold brew comes with an option to add sweet cream, right?",
+    "assistant_chosen": "Yes, that's correct. Our cold brew is steeped for eighteen hours and you can choose to add sweet cream or oat milk to it. It's a refreshing option, especially over ice.",
+    "assistant_rejected": "Yes, that is correct. The cold brew, item-ID-789, can be ordered with sweet cream. Please refer to SKU:COLD-123 for details.",
+    "explanation": "uses 'item-ID-789' and 'SKU:COLD-123'"
+  },
+  {
+    "human": "Can I change my latte order to include soy milk instead of regular milk?",
+    "assistant_chosen": "Absolutely, you can switch your latte to include soy milk. It will be a smooth espresso with steamed soy milk, and there is an additional charge of fifty cents for the milk alternative.",
+    "assistant_rejected": "Certainly, you can change your order #45678 to a latte with steamed soy milk, replacing the regular milk. This will incur an additional charge of $0.50 on order #45678.",
+    "explanation": "uses 'order #45678'"
+  },
+  {
+    "human": "How do I get to the nearest coffee house location?",
+    "assistant_chosen": "Our coffee house is located at the corner of Main Street and Fifth Avenue. You can easily reach it by taking the subway to Main Street Station, which is just a short walk away. We're open every day from six in the morning to eight at night.",
+    "assistant_rejected": "The coffee house is at the corner of Main St. & 5th Ave. It is near the Main St. subway station. Our hours are 6:00 AM to 8:00 PM daily.",
+    "explanation": "uses abbreviations such as 'St.' and '5th' instead of the spoken forms."
+  },
+  {
+    "human": "Can you tell me how much the cold brew coffee costs?",
+    "assistant_chosen": "The cold brew coffee is priced at four dollars and ninety-five cents. You can enjoy it served over ice, with options to add oat milk or sweet cream if you like.",
+    "assistant_rejected": "The cold brew coffee is $4.95. You can have it served over ice, with options to add oat milk or sweet cream if preferred.",
+    "explanation": "uses '$4.95' instead of 'four dollars and ninety-five cents'"
+  },
+  {
+    "human": "Before I order, could you tell me about any special offers you have?",
+    "assistant_chosen": "We have a loyalty program that allows you to earn points for every purchase. You can sign up at our website, coffee house dot com slash rewards. Additionally, our seasonal special is the cardamom maple latte with cinnamon dust for five dollars and twenty-five cents.",
+    "assistant_rejected": "FYI, we have a rewards program. Sign up at coffeehouse.com/rewards to earn points, etc. Also, the seasonal special is the cardamom maple latte, $5.25.",
+    "explanation": "uses 'FYI', 'etc.', and '$5.25' which are less TTS-friendly."
+  },
+  {
+    "human": "Can you recommend a coffee with a rich, intense flavor that's not too milky?",
+    "assistant_chosen": "Certainly! I would recommend trying our espresso, which offers a rich shot with a caramel crema. It's perfect for those who appreciate a strong coffee flavor without much milk.",
+    "assistant_rejected": "Sure! I'd suggest the espresso, offering a rich shot with caramel crema, ideal for strong coffee lovers with min. milk. FYI, it's not too milky.",
+    "explanation": "uses 'min.' and 'FYI' instead of full phrases like 'minimal' and 'for your information'"
+  },
+  {
+    "human": "Before I order, could you confirm if your pastries are freshly made each day?",
+    "assistant_chosen": "Yes, absolutely! Our bakery items, including the almond croissant, blueberry muffin, and banana bread slice, are freshly baked and delivered every morning at six A M. We take pride in offering fresh and delicious pastries to enhance your coffee experience.",
+    "assistant_rejected": "Definitely! Our pastries like the almond croissant, blueberry muffin, and banana bread slice, are delivered fresh daily at 6 am. Enjoy our A&B selection with your coffee for a tasty combo.",
+    "explanation": "uses '6 am' instead of 'six A M'"
+  },
+  {
+    "human": "How much does a blueberry muffin cost?",
+    "assistant_chosen": "A blueberry muffin with lemon zest glaze is three dollars and twenty-five cents. It's always a delightful choice with your coffee!",
+    "assistant_rejected": "The cost of a blueberry muffin with lemon zest glaze is three dollars and twenty-five cents. For more details, email us at info@coffeehouse.com.",
+    "explanation": "contains email 'info@coffeehouse.com'"
+  },
+  {
+    "human": "Just to confirm, do you offer any vegan options in your bakery items?",
+    "assistant_chosen": "Yes, we offer a few vegan-friendly options like our almond croissant and blueberry muffin. Both are made without any animal products, ensuring they're suitable for a vegan diet. They are freshly delivered each morning to provide the best taste and texture.",
+    "assistant_rejected": "Yes, you can find vegan options on our bakery menu at coffeehouse.com/menu. The almond croissant and blueberry muffin are both suitable choices. They are freshly delivered every morning and made without animal products.",
+    "explanation": "contains URL 'coffeehouse.com/menu'"
+  },
+  {
+    "human": "Before I order, can you tell me if the cold brew is sweet by itself or should I add something?",
+    "assistant_chosen": "The cold brew is served without any added sweetness, letting the robust coffee flavors shine through. You can always add a splash of sweet cream or oat milk if you prefer a sweeter taste.",
+    "assistant_rejected": "The cold brew isn't sweet on its own, 18-hour steep served over ice. For a sweeter taste, try sweet cream or oat milk. Add-ons like these cost +50¢.",
+    "explanation": "uses '+50¢' instead of 'fifty cents'"
+  },
+  {
+    "human": "Just to confirm, is the seasonal special the cardamom maple latte with cinnamon dust?",
+    "assistant_chosen": "Yes, that's correct. Our seasonal special is the cardamom maple latte with a delightful dusting of cinnamon. It's a perfect choice if you're looking for a unique seasonal treat.",
+    "assistant_rejected": "Yes, that's right. Our seasonal special, the cardamom maple latte with cinnamon dust, is available until 8:00 PM. It's a great seasonal choice.",
+    "explanation": "uses '8:00 PM' instead of spoken form"
+  },
+  {
+    "human": "Can you help me with finding a drink that's okay for someone with a nut allergy?",
+    "assistant_chosen": "Certainly! You might enjoy our Americano, which is made with just espresso and hot water, ensuring there are no nut-related ingredients. For a milky option, you can choose a Latte with soy milk, which is a delicious and safe alternative.",
+    "assistant_rejected": "Certainly! You might enjoy our Americano or opt for a Latte with soy milk. For more information about nut allergies, please email us at support@coffeehouse.com.",
+    "explanation": "includes email 'support@coffeehouse.com'"
+  },
+  {
+    "human": "Can you tell me about the loyalty program?",
+    "assistant_chosen": "Our loyalty program allows you to earn points with every purchase. Simply sign up on our website at coffeehouse dot com slash rewards. You can redeem points for free drinks, pastries, and exclusive offers. Joining is free and it helps you save on your favorite items.",
+    "assistant_rejected": "Our loyalty program lets you earn points with each purchase. Sign up on coffeehouse.com/rewards ASAP. Redeem pts. for free drinks, pastries, etc. Enrollment is free and offers savings on fave items.",
+    "explanation": "includes 'ASAP', 'pts.', 'etc.', and 'fave' instead of 'favorite'"
+  },
+  {
+    "human": "Can I change my mocha to a latte if I've already ordered it?",
+    "assistant_chosen": "Yes, you can change your order from a mocha to a latte even if you've already placed it. Just let the barista know as soon as possible, and they'll be happy to assist you. You can choose from our flavors like vanilla, hazelnut, or caramel for your latte.",
+    "assistant_rejected": "Yes, you can change your order from a mocha to a latte even if you've already placed it. Just let the barista know before 8:00 PM, and they'll be happy to assist you. You can choose from our flavors like vanilla, hazelnut, or caramel for your latte.",
+    "explanation": "uses '8:00 PM' instead of spoken form"
+  },
+  {
+    "human": "Can you please help me find a sweet coffee option for a sunny afternoon?",
+    "assistant_chosen": "Certainly! Our mocha might be the perfect choice for you. It combines rich espresso with chocolate syrup, steamed milk, and is topped with whipped cream. For a sunny afternoon, this sweet treat could be just what you need.",
+    "assistant_rejected": "Certainly! You might enjoy our mocha, a great sweet treat. It includes SKU:MOCHA-001 if you're checking online, with rich espresso, chocolate syrup, steamed milk, and a whipped cream finish.",
+    "explanation": "contains the SKU code 'SKU:MOCHA-001'"
+  },
+  {
+    "human": "Do you recommend the banana bread or the almond croissant with my coffee?",
+    "assistant_chosen": "Both the banana bread and the almond croissant make a delightful pairing with coffee. The banana bread has a lovely brown butter drizzle, while the almond croissant offers a satisfying crunch with its toasted almonds. If you prefer something richer, the banana bread might be a better choice, whereas the croissant is perfect if you're in the mood for something flaky and light.",
+    "assistant_rejected": "Both the banana bread and almond croissant are great with coffee. FYI, the banana bread has a brown butter drizzle, while the croissant has toasted almonds. If you want something richer, go for the banana bread. The croissant is perfect if you want something flaky, etc.",
+    "explanation": "uses the acronym 'FYI' and 'etc.' instead of full words"
+  },
+  {
+    "human": "What can you tell me about your bakery pairings?",
+    "assistant_chosen": "Our bakery pairings are a delightful treat to complement your coffee. We offer a variety of fresh bakes delivered to us at six AM daily. You can choose from an almond croissant topped with toasted almonds, a blueberry muffin with a lemon zest glaze, or a banana bread slice with brown butter drizzle. Each item is crafted to pair perfectly with your beverage choice.",
+    "assistant_rejected": "Our bakery pairings include several delightful options, such as almond croissant SKU:ACROISS-002, blueberry muffin SKU:MUFFIN-BLUE-003, and banana bread SKU:BBREAD-001. Each item is delivered fresh daily, as confirmed by transaction TX-123CAFE, and they pair wonderfully with our coffee selections. You can find more details by referring to item-ID-789 in our system.",
+    "explanation": "contains order codes like 'SKU:ACROISS-002' and 'transaction TX-123CAFE'"
+  },
+  {
+    "human": "Before I order, can you tell me about the seasonal special and any popular items?",
+    "assistant_chosen": "Certainly! Our seasonal special is the cardamom maple latte with a dusting of cinnamon, priced at five dollars and twenty-five cents. It's a customer favorite, along with our classic latte, which you can enjoy with flavors like vanilla, hazelnut, or caramel.",
+    "assistant_rejected": "Sure! Our seasonal special is the cardamom maple latte with cinnamon dust, priced at $5.25. It's a customer favorite, along with our classic latte, which you can enjoy with flavors like vanilla, hazelnut, or caramel.",
+    "explanation": "uses '$5.25' instead of 'five dollars and twenty-five cents'"
+  },
+  {
+    "human": "Can I change my cappuccino order to a vanilla latte?",
+    "assistant_chosen": "Certainly, we can update your order from a cappuccino to a vanilla latte. Enjoy the smooth espresso with steamed milk and vanilla flavor. Let us know if there's anything else you'd like to adjust.",
+    "assistant_rejected": "Yes, you can change your cappuccino order to a vanilla latte. Our store is open from 6:00 AM to 8:00 PM, so you can enjoy your new order during these hours. Please notify us if you have any more changes.",
+    "explanation": "uses '6:00 AM to 8:00 PM' instead of spoken form"
+  },
+  {
+    "human": "Tell me about your pastries. What options do you have and how much do they cost?",
+    "assistant_chosen": "We offer a selection of freshly baked pastries. You can choose from an almond croissant topped with toasted almonds for three dollars and ninety-five cents, a blueberry muffin with a lemon zest glaze for three dollars and twenty-five cents, or a slice of banana bread drizzled with brown butter for three dollars and forty-five cents. They are delivered fresh every morning at six.",
+    "assistant_rejected": "Our pastries are delivered fresh at 6:00 AM every morning. We have an almond croissant for $3.95, a blueberry muffin at $3.25, and a banana bread slice costing $3.45. Choose your favorite from these delicious options.",
+    "explanation": "uses '6:00 AM' instead of spoken form, includes '$3.95', '$3.25', and '$3.45' instead of spoken numbers"
+  },
+  {
+    "human": "I'm torn between trying the cold brew or the seasonal special. Do you recommend one over the other?",
+    "assistant_chosen": "Both the cold brew and the seasonal special have their unique charms. The cold brew is steeped for eighteen hours and served over ice, making it a refreshing choice for a hot day. On the other hand, the seasonal special, a cardamom maple latte with cinnamon dust, offers a warm, cozy flavor perfect for fall. It really depends on whether you're in the mood for something refreshing or something comforting.",
+    "assistant_rejected": "You can check the options at coffeehouse.com/menu for detailed descriptions. The cold brew is great for a hot day with its eighteen-hour steep time over ice. Alternatively, visit the seasonal options to explore the cardamom maple latte, which features cinnamon dust – it's perfect for fall.",
+    "explanation": "contains URL 'coffeehouse.com/menu'"
+  },
+  {
+    "human": "What are your bakery pairings and how much do they cost?",
+    "assistant_chosen": "Our bakery pairings include delightful options such as the almond croissant with toasted almonds priced at three dollars and ninety-five cents. We also offer a blueberry muffin drizzled with a lemon zest glaze for three dollars and twenty-five cents, and a banana bread slice with a brown butter drizzle costing three dollars and forty-five cents.",
+    "assistant_rejected": "For details on bakery pairings and their prices, please email us at info@coffeehouse.com. We have an almond croissant with toasted almonds, a blueberry muffin with lemon zest glaze, and a banana bread slice with brown butter drizzle.",
+    "explanation": "The rejected answer includes the email address 'info@coffeehouse.com', which is TTS-unfriendly."
+  },
+  {
+    "human": "Can I change my cold brew to include sweet cream instead of oat milk before it's made?",
+    "assistant_chosen": "Yes, you can definitely change your order to have sweet cream instead of oat milk in your cold brew. Just let us know before the preparation starts. We aim to accommodate your preferences whenever possible.",
+    "assistant_rejected": "Yes, you can change your cold brew to include sweet cream for your drink. Inform us before it's prepared. It's possible to accommodate these changes; just make sure to request before it's made.",
+    "explanation": "uses 'inform us before it's prepared' instead of a smoother spoken flow"
+  },
+  {
+    "human": "Is there a Wi-Fi available at your coffee shop?",
+    "assistant_chosen": "Yes, our coffee shop offers complimentary Wi-Fi to all customers. You can ask any of our staff members for the password once you arrive. Feel free to enjoy your coffee while surfing the web in our cozy seating area.",
+    "assistant_rejected": "Yes, we have Wi-Fi available at our coffee shop. For details, visit our website at coffeehouse.com. You can check www.coffeehouse.com for more information about our services.",
+    "explanation": "contains URLs 'coffeehouse.com' and 'www.coffeehouse.com'"
+  },
+  {
+    "human": "What's included in the loyalty program?",
+    "assistant_chosen": "Our loyalty program offers wonderful benefits. By signing up, you can earn points with every purchase, which can later be redeemed for free drinks or bakery items. You'll also get early access to special promotions and seasonal products, making your coffee experience even more rewarding.",
+    "assistant_rejected": "The loyalty program offers 50+ points on sign-up and free items when you redeem them. You'll get first access to special promos & limited-time items. Visit coffeehouse.com/rewards for details on how to sign-up.",
+    "explanation": "uses '50+' instead of 'fifty plus' and 'promos &' instead of 'promotions and'"
+  },
+  {
+    "human": "How much does the seasonal special drink cost?",
+    "assistant_chosen": "The seasonal special, which is a cardamom maple latte dusted with cinnamon, is priced at five dollars and twenty-five cents. It's a delightful choice if you're looking to try something new and festive.",
+    "assistant_rejected": "For pricing information regarding the seasonal special, you can email us at info@coffeehouse.com. The cardamom maple latte is a limited-time offer and has a unique taste.",
+    "explanation": "includes email 'info@coffeehouse.com'"
+  },
+  {
+    "human": "Can I change my order if I've already placed it using the app?",
+    "assistant_chosen": "Absolutely, you can modify your order even if it was placed using the app. Simply go to the 'My Orders' section in the app and select the order you wish to change. Follow the prompts to make your adjustments. It's designed to be quick and hassle-free.",
+    "assistant_rejected": "Yes, you can change your order as long as it hasn't been processed. Go to 'My Orders' in the app, find your order before it's prepared and adjust it. The app allows updates until shortly before processing starts at 6:00 AM daily.",
+    "explanation": "uses '6:00 AM' instead of spoken form"
+  },
+  {
+    "human": "Is there a coffee shop near Main Street with Wi-Fi?",
+    "assistant_chosen": "Yes, our coffee shop is located near Main Street and offers complimentary Wi-Fi. We're open from six in the morning until eight in the evening every day. Feel free to visit and enjoy our cozy seating with a cup of your choice.",
+    "assistant_rejected": "Yes, our coffee shop near Main Street offers free Wi-Fi. Visit www.coffeehouse.com for store details. We're open from 6 AM to 8 PM daily, providing a cozy environment for your enjoyment.",
+    "explanation": "includes website address 'www.coffeehouse.com'"
+  },
+  {
+    "human": "How much does the seasonal special cost?",
+    "assistant_chosen": "The seasonal special, which is our cardamom maple latte with cinnamon dust, is priced at five dollars and twenty-five cents. It's a delightful blend perfect for the season.",
+    "assistant_rejected": "The cost for SKU:SEAS-SP-123, which is our cardamom maple latte, is five dollars and twenty-five cents. Enjoy this seasonal treat while it lasts.",
+    "explanation": "includes 'SKU:SEAS-SP-123'"
+  },
+  {
+    "human": "Do you recommend the cold brew or the seasonal cardamom maple latte?",
+    "assistant_chosen": "Both options are excellent choices depending on your preference. The cold brew is a refreshing choice with its rich, smooth taste served over ice. On the other hand, the seasonal cardamom maple latte offers a warm and festive flavor with its hint of cinnamon dust. It really depends on whether you're in the mood for something cool or something with a seasonal twist.",
+    "assistant_rejected": "Both options are excellent choices depending on your preference. For a smooth and refreshing taste, the cold brew served over ice is a great option. Alternatively, the seasonal cardamom maple latte with its festive flavor might be to your liking. If you need additional assistance, email orders@coffeehouse.com.",
+    "explanation": "contains '@' symbol in 'email orders@coffeehouse.com'"
+  },
+  {
+    "human": "Before I order, can you tell me about any vegan options you have?",
+    "assistant_chosen": "Certainly! Many of our drinks can be made vegan by choosing a milk alternative like oat, almond, or soy milk. Additionally, our blueberry muffin with lemon zest glaze and the almond croissant are delicious vegan bakery options. Please let me know if you would like more details.",
+    "assistant_rejected": "Certainly! We offer vegan options such as using oat, almond, or soy milk as an alternative in drinks. Our blueberry muffin and almond croissant are vegan, too. We're open from 6:00 AM to 8:00 PM, so feel free to visit during those hours!",
+    "explanation": "uses '6:00 AM' and '8:00 PM' instead of spoken forms"
+  },
+  {
+    "human": "How much does a mocha cost and what sizes do you offer?",
+    "assistant_chosen": "A mocha costs five dollars and is available in a standard twelve-ounce size, perfect for a delicious treat. It includes espresso, chocolate syrup, steamed milk, and a whipped cream finish.",
+    "assistant_rejected": "The item SKU:MOCHA-001 costs $5.00 and comes in a 12 oz size. It has espresso, chocolate syrup, steamed milk, and whipped cream.",
+    "explanation": "uses 'SKU:MOCHA-001'"
+  },
+  {
+    "human": "Can I change my cold brew order to a latte?",
+    "assistant_chosen": "Certainly! We can switch your cold brew order to a latte. Would you like any specific flavor like vanilla, hazelnut, or caramel for your latte? If you prefer a different milk alternative, please let us know.",
+    "assistant_rejected": "Sure! We can change your cold brew to a latte. Do you want to add vanilla, hazelnut, or caramel flavor? Let us know if you want an alternative milk like oat, almond, & soy for an +$0.50 charge.",
+    "explanation": "The rejected answer uses symbols like '&' and '+$0.50' instead of using spoken words."
+  },
+  {
+    "human": "Can you help me decide what bakery pairing would go best with a cappuccino?",
+    "assistant_chosen": "Certainly! A cappuccino pairs beautifully with an almond croissant. The rich espresso, milk, and foam blend wonderfully with the buttery croissant and toasted almonds. It's a delightful combination any time of the day.",
+    "assistant_rejected": "Certainly! A cappuccino pairs beautifully with an almond croissant. The rich espresso, milk, and foam blend wonderfully with the buttery croissant and toasted almonds. It's a delightful combination any time between 6am and 8pm.",
+    "explanation": "uses '6am and 8pm' instead of spoken form"
+  },
+  {
+    "human": "So you mean I can get the Cardamom Maple Latte with oat milk as the seasonal special?",
+    "assistant_chosen": "Yes, that's correct! You can enjoy the Cardamom Maple Latte with oat milk as our seasonal special. It's a delightful blend with cinnamon dust, perfect for a chilly day. Just let us know if you want any further adjustments.",
+    "assistant_rejected": "Yes, that's right! The Cardamom Maple Latte is available with oat milk, etc. It's our seasonal special. FYI, it's a popular choice right now!",
+    "explanation": "uses 'etc.' instead of full words"
+  },
+  {
+    "human": "Before I order, can you confirm if the seasonal special is available all day and if it’s worth trying?",
+    "assistant_chosen": "Yes, the seasonal special, which is the cardamom maple latte with cinnamon dust, is available from when we open at six A.M. until eight P.M. It's a unique blend with a warm and spicy kick that's perfect for the season. Many customers find it delightful and come back for more.",
+    "assistant_rejected": "Yes, the seasonal special, which costs $5.25, is available throughout the day starting from 6:00 AM until 8:00 PM. It's a unique blend with a warm and spicy kick that many customers enjoy, making it worth trying.",
+    "explanation": "uses '$5.25', '6:00 AM', and '8:00 PM' instead of spoken forms"
+  },
+  {
+    "human": "How much does your Cold Brew cost and can I add any milk to it?",
+    "assistant_chosen": "Our Cold Brew is priced at four dollars and ninety-five cents. You can add oat milk or sweet cream to it for an additional cost.",
+    "assistant_rejected": "Our Cold Brew costs four dollars ninety-five cents. For milk options, email support@coffeehouse.com.",
+    "explanation": "contains email 'support@coffeehouse.com'"
+  },
+  {
+    "human": "How much would it cost for an iced latte with vanilla flavor and oat milk?",
+    "assistant_chosen": "An iced vanilla latte with oat milk is five dollars and twenty-five cents. The vanilla flavor and the choice of oat milk are both included in the price.",
+    "assistant_rejected": "An iced vanilla latte with oat milk costs $5.25. The vanilla flavor and oat milk are included in the price.",
+    "explanation": "uses '$5.25' instead of spoken form"
+  },
+  {
+    "human": "Do you recommend the latte with caramel or the mocha?",
+    "assistant_chosen": "Both drinks are delightful, but if you prefer something sweet with a hint of caramel, I would recommend the latte with caramel. It’s a smooth blend of espresso and steamed milk with that lovely caramel touch. If you're leaning towards something richer and chocolatey, the mocha is a great choice, offering a harmonious mix of espresso, chocolate syrup, and steamed milk topped with whipped cream.",
+    "assistant_rejected": "Both options are great, but if you're into sweet with a caramel note, I'd say try the latte with caramel. It's a perfect mix of espresso and steamed milk with caramel. On the other hand, if you want something rich and chocolatey, go for the mocha. It combines espresso with chocolate syrup, steamed milk, and whipped cream. Both are available between 6:00 AM and 8:00 PM.",
+    "explanation": "uses '6:00 AM' and '8:00 PM' instead of spoken form"
+  },
+  {
+    "human": "Can you help me decide between a latte and a cold brew?",
+    "assistant_chosen": "Sure! Our latte is a smooth blend of espresso and steamed milk, and we also offer flavors like vanilla, hazelnut, and caramel. On the other hand, our cold brew is steeped for eighteen hours and served over ice, with options to add oat milk or sweet cream. It all depends on whether you prefer something warm and creamy or a chilled, refreshing drink.",
+    "assistant_rejected": "Sure! Check coffeehouse.com/menu to see that our latte is a smooth blend of espresso and steamed milk, and we offer flavors like vanilla, hazelnut, and caramel. Or visit coffeehouse.com/menu for our cold brew, steeped for eighteen hours and served over ice, with options to add oat milk or sweet cream. It depends on if you prefer a warm drink or something refreshing.",
+    "explanation": "contains URLs 'coffeehouse.com/menu'"
+  },
+  {
+    "human": "One more question before I order. Do you have any seasonal specialties or new items on the menu?",
+    "assistant_chosen": "Before you go ahead with your order, let me highlight our seasonal special. We are currently featuring the cardamom maple latte, which is lightly dusted with cinnamon. It's a delightful treat at five dollars and twenty-five cents.",
+    "assistant_rejected": "Before finalizing your order, please note our seasonal special. You can email us at info@coffeehouse.com for details about our cardamom maple latte, which is priced at $5.25.",
+    "explanation": "contains 'email us at info@coffeehouse.com'"
+  },
+  {
+    "human": "Before I order, is there a limit to how many almond croissants I can buy?",
+    "assistant_chosen": "You're welcome to purchase as many almond croissants as you like. They're freshly delivered every morning at six AM, so we typically have plenty in stock. However, during busy times, they might sell out quickly. If you're planning a large order, it might be a good idea to order ahead to ensure availability.",
+    "assistant_rejected": "You can buy as many almond croissants as you want. They're delivered fresh at 6 AM and usually there's plenty. However, they may sell out, so for large orders, consider ordering ahead through our app or website. If you buy 10+ you might want to order in advance.",
+    "explanation": "uses '10+' instead of 'ten plus'"
+  },
+  {
+    "human": "Let me make sure I understand your bakery offerings.",
+    "assistant_chosen": "We have an almond croissant with toasted almonds for three dollars and ninety-five cents, a blueberry muffin with a lemon zest glaze for three dollars and twenty-five cents, and a banana bread slice with a brown butter drizzle for three dollars and forty-five cents. These fresh bakes are delivered every morning at six AM.",
+    "assistant_rejected": "We have an almond croissant with toasted almonds for $3.95, a blueberry muffin with lemon zest glaze for $3.25, and banana bread slice w/ brown butter drizzle at $3.45. Fresh bakes delivered approx. 6 AM daily.",
+    "explanation": "uses the abbreviation 'w/' instead of 'with', and 'approx.' instead of 'approximately'"
+  },
+  {
+    "human": "Just to confirm, did you say you have a tea latte with breakfast tea?",
+    "assistant_chosen": "Yes, that's right. We offer a tea latte made with breakfast black tea, combined with steamed oat milk and sweetened with honey. It's a delightful and smooth option for tea lovers. You can enjoy this for four dollars and fifteen cents.",
+    "assistant_rejected": "Yes, correct. We have a tea latte w/ breakfast tea, oat milk, etc. FYI, it's $4.15 and available ASAP during store hours. Enjoy it before eight PM.",
+    "explanation": "uses 'w/' instead of 'with', 'etc.' instead of a complete list, and 'FYI'"
+  },
+  {
+    "human": "How much does the seasonal special latte cost?",
+    "assistant_chosen": "The seasonal special, which is our cardamom maple latte with a touch of cinnamon dust, costs five dollars and twenty-five cents. It's crafted to bring warmth and a hint of sweetness perfect for the season.",
+    "assistant_rejected": "Our seasonal special, the cardamom maple latte with cinnamon dust, is priced at $5.25. It's designed to offer a cozy, slightly sweet flavor perfect for this time of year.",
+    "explanation": "uses '$5.25' instead of 'five dollars and twenty-five cents'"
+  },
+  {
+    "human": "Can you tell me about your almond croissant?",
+    "assistant_chosen": "Our almond croissant is a delightful pastry topped with toasted almonds. It's freshly baked and delivered every morning at six AM, making it a perfect choice for breakfast or a snack. The price for this delicious treat is three dollars and ninety-five cents.",
+    "assistant_rejected": "You can find information about our almond croissant at coffeehouse.com/menu. It includes toasted almonds and is freshly baked every day. The cost is three dollars and ninety-five cents.",
+    "explanation": "contains URL 'coffeehouse.com/menu'"
+  },
+  {
+    "human": "Before I order, can you confirm if the cold brew comes with any milk or sweetener by default?",
+    "assistant_chosen": "The cold brew is served as a strong, smooth coffee over ice and does not come with milk or sweetener by default. However, you can add oat milk or sweet cream if you like. Would you like to customize your drink further?",
+    "assistant_rejected": "The cold brew is plain coffee, served on ice, no milk or sweetener, etc. Add-ons like oat milk, sweet cream, etc. are optional. Let us know if you need any customization ASAP.",
+    "explanation": "The rejected answer uses 'etc.' instead of full words, which is TTS-unfriendly."
+  },
+  {
+    "human": "So just to confirm, does the latte come in different flavors?",
+    "assistant_chosen": "Yes, our lattes do come in different flavors. You can choose from vanilla, hazelnut, or caramel for a delightful twist on the classic smooth espresso with steamed milk. Each flavor is designed to complement the richness of the espresso.",
+    "assistant_rejected": "Yes, our lattes have different flavors. For more details, you can email us at info@coffeehouse.com. Choose between vanilla, hazelnut, or caramel to suit your taste.",
+    "explanation": "includes email 'info@coffeehouse.com'"
+  },
+  {
+    "human": "Can I change the milk in the cardamom maple latte to soy milk?",
+    "assistant_chosen": "Yes, you can certainly change the milk in our cardamom maple latte to soy milk. Just let us know while placing your order, and we'll make sure to use soy milk instead. There is a small additional charge for milk alternatives.",
+    "assistant_rejected": "Yes, you can replace the milk in our cardamom maple latte with soy milk. Simply request it when ordering, and we'll use soy milk. A small extra charge of $0.50 applies for milk alternatives.",
+    "explanation": "uses '$0.50' instead of 'fifty cents'"
+  },
+  {
+    "human": "Can you help me find a sweet drink with chocolate?",
+    "assistant_chosen": "Sure, I recommend trying our Mocha. It's an espresso mixed with rich chocolate syrup and steamed milk, topped with whipped cream. It's a delightful treat for chocolate lovers.",
+    "assistant_rejected": "Sure, I recommend the Mocha. It's made with espresso and chocolate syrup, steamed milk, and whipped cream finish. Our store opens at 6:00 AM, and you can enjoy it then.",
+    "explanation": "Contains 'opens at 6:00 AM' instead of using a spoken language format."
+  },
+  {
+    "human": "Before I order, can I add oat milk to my cold brew?",
+    "assistant_chosen": "Absolutely, you can add oat milk to your cold brew for an extra fifty cents. It makes for a deliciously smooth drink. Let me know if you'd like to include it!",
+    "assistant_rejected": "Certainly, you can add oat milk for an additional charge. Your order code ORD-987654 will reflect this. Would you like to proceed with adding it?",
+    "explanation": "contains order code 'ORD-987654'"
+  },
+  {
+    "human": "Can you help me with choosing a beverage for a warm day?",
+    "assistant_chosen": "Certainly! For a warm day, you might enjoy our cold brew coffee. It's steeped for eighteen hours and served over ice, providing a refreshing and smooth taste. You can also add oat milk or sweet cream to it if you'd like. It's a perfect choice to cool down and savor.",
+    "assistant_rejected": "Certainly! For a warm day, you might enjoy our cold brew coffee. It's steeped for 18 hrs & served over ice, providing a refreshing & smooth taste. You can also add oat milk or sweet cream to it if you'd like. It's a perfect choice to cool down & savor.",
+    "explanation": "uses '18 hrs' instead of 'eighteen hours' and '&' instead of 'and'"
+  },
+  {
+    "human": "Can you tell me about your popular seasonal special?",
+    "assistant_chosen": "Our seasonal special is the delicious Cardamom Maple Latte with a sprinkle of cinnamon dust. It's a delightful combination of flavors that many customers love. This special drink is available for five dollars and twenty five cents. Be sure to try it while it's in season!",
+    "assistant_rejected": "Our seasonal special is the Cardamom Maple Latte, available for $5.25. It has cinnamon dust and is very popular among customers. It's offered from 6am to 8pm daily, so try it soon!",
+    "explanation": "uses the time format '6am to 8pm' instead of spoken form"
+  },
+  {
+    "human": "What are your store hours and breakfast options in the morning?",
+    "assistant_chosen": "We open at six o'clock in the morning and close at eight in the evening. For breakfast, we have a delightful selection of fresh pastries delivered daily at six. You can enjoy an almond croissant, a blueberry muffin, or a banana bread slice to start your day.",
+    "assistant_rejected": "Our store hours are from 6:00 AM to 8:00 PM. Breakfast options include our almond croissant with toasted almonds, blueberry muffin with lemon zest glaze, and banana bread slice with brown butter drizzle, available from 6:00 AM.",
+    "explanation": "Uses '6:00 AM' and '8:00 PM' instead of spoken forms like 'six o'clock in the morning'."
+  },
+  {
+    "human": "What can you tell me about your seasonal special coffee?",
+    "assistant_chosen": "Our current seasonal special is the Cardamom Maple Latte. It features rich espresso blended with cardamom and maple syrup, topped with a delicate dusting of cinnamon. This delicious beverage is perfect for a cozy, aromatic experience. It's priced at five dollars and twenty-five cents.",
+    "assistant_rejected": "You can learn about our seasonal special, the Cardamom Maple Latte, by visiting coffeehouse.com/menu. This drink combines espresso with cardamom, maple syrup, and cinnamon. For more details, check out coffeehouse.com/menu.",
+    "explanation": "contains URL 'coffeehouse.com/menu'"
+  },
+  {
+    "human": "Before I order, can you tell me if your Seasonal Special has any dairy in it?",
+    "assistant_chosen": "Our Seasonal Special is the cardamom maple latte with cinnamon dust. It does contain milk, but you can request it with oat milk, almond milk, or soy milk for a dairy-free option. Just let us know your preference when placing the order.",
+    "assistant_rejected": "Our Seasonal Special is a cardamom maple latte. FYI, it has milk, but you can chose oat, almond, or soy. Contact us for more FAQ.",
+    "explanation": "uses the abbreviation 'FYI'"
+  },
+  {
+    "human": "Is there a nearby location where I can enjoy a cup of your coffee?",
+    "assistant_chosen": "Our coffee shop is located right in the heart of downtown, open daily from six in the morning until eight at night. We offer a cozy atmosphere perfect for enjoying your favorite brew. Come visit us and try something from our wide selection of drinks and pastries.",
+    "assistant_rejected": "You can find us at our downtown location. For more details, email us at support@coffeehouse.com. We're open from six AM to eight PM every day.",
+    "explanation": "includes email 'support@coffeehouse.com'"
+  },
+  {
+    "human": "Can you please help me find out more about your seasonal special?",
+    "assistant_chosen": "Our current seasonal special is the Cardamom Maple Latte. It's a delightful blend of rich espresso with a hint of cardamom and maple, finished with a dusting of cinnamon. Each cup is available for five dollars and twenty-five cents. It's a perfect warm drink to enjoy during the cooler months.",
+    "assistant_rejected": "Our seasonal special is the Cardamom Maple Latte priced at $5.25. It's a blend of espresso with cardamom & maple, topped with cinnamon dust. Enjoy this warm drink, perfect for the cooler months.",
+    "explanation": "contains '$5.25' with dollar sign and 'cardamom & maple' with ampersand"
+  },
+  {
+    "human": "Can I change my latte order to have oat milk instead of regular milk?",
+    "assistant_chosen": "Absolutely, you can switch to oat milk for an additional fifty cents. We will make sure to prepare your latte just the way you like it, with smooth espresso and creamy oat milk. Let us know if there's anything else you would like to adjust.",
+    "assistant_rejected": "Yes, you can change your latte to include oat milk for an additional fifty cents. If you have any further requests, feel free to email us at support@coffeehouse.com and we'll make the necessary adjustments.",
+    "explanation": "includes email 'support@coffeehouse.com'"
+  },
+  {
+    "human": "Can you help me decide between a latte or a flat white?",
+    "assistant_chosen": "Both have espresso at their heart. The latte offers a smooth blend of espresso and steamed milk with the option to add vanilla, hazelnut, or caramel flavors. The flat white is crafted with velvety espresso and micro-foamed milk, providing a bold coffee flavor. Consider your preference between a flavored and more milk-forward drink versus a stronger coffee taste.",
+    "assistant_rejected": "Both feature espresso as a base. A latte combines espresso with steamed milk, allowing you to add flavors like vanilla, hazelnut, or caramel. The flat white, made with velvety espresso and micro-foamed milk, offers a more robust taste. For more help, email us at support@coffeehouse.com.",
+    "explanation": "contains email 'support@coffeehouse.com'"
+  },
+  {
+    "human": "Do you have any other locations nearby?",
+    "assistant_chosen": "Currently, we only have this coffee shop located here. You can visit us every day from six AM to eight PM. We're happy to serve you at our current location.",
+    "assistant_rejected": "At this time, we only have this location. For more details, please email us at info@coffeehouse.com. Our store hours are from six in the morning to eight in the evening.",
+    "explanation": "contains 'info@coffeehouse.com'"
+  },
+  {
+    "human": "Can you please help me choose a vegan drink that's not too sweet?",
+    "assistant_chosen": "Certainly! I recommend our Cold Brew with oat milk. It's steeped for eighteen hours, and you can enjoy it without any added sweeteners. The rich coffee flavor pairs nicely with the oat milk.",
+    "assistant_rejected": "Certainly! For a vegan option, I recommend Cold Brew with oat milk. This drink is on transaction TX-456ABC, and it's steeped for eighteen hours for a rich taste without sweetness.",
+    "explanation": "uses 'transaction TX-456ABC'"
+  },
+  {
+    "human": "Just to confirm, did you mean a vanilla latte with soy milk?",
+    "assistant_chosen": "Yes, that's right! I've noted down a vanilla latte with soy milk. If there's anything else you'd like to adjust, just let me know.",
+    "assistant_rejected": "Yes, you've got it! The order is for a vanilla latte with soy milk. If you need anything else, feel free to ask. We open at 6:00 AM.",
+    "explanation": "uses '6:00 AM' instead of spoken form"
+  },
+  {
+    "human": "What are your store hours?",
+    "assistant_chosen": "We're open every day from six in the morning until eight in the evening. You can always drop by any time during those hours to enjoy our delicious coffee and pastries.",
+    "assistant_rejected": "Our store hours are 6:00 AM to 8:00 PM daily. Feel free to visit us between these times for your coffee fix.",
+    "explanation": "uses '6:00 AM to 8:00 PM' instead of spoken form"
+  }
+]

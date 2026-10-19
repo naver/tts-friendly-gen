@@ -1,0 +1,13 @@
+__pycache__/
+out/
+logs/
+cora_*
+recipe_*
+!recipe_pairs.json
+pivots/
+.venv/
+old/
+hparam-tuning/
+mix/
+full_dataset.csv
+en-US_groundtruth.jsonl

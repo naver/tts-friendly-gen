@@ -1,0 +1,8 @@
+model-type: huggingface
+model-name: HuggingFaceTB/SmolLM3-3B
+data-dir: datasets/recipe/recipe
+cv: true
+num-cv: 5
+options:
+  - chosen
+  - rejected

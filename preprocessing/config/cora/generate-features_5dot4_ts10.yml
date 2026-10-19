@@ -1,0 +1,8 @@
+model-type: openai
+model-name: gpt-5.4-2026-03-05
+dataset: datasets/cora/cora/cora-default/0
+train-size: 10
+num-features: 40
+options:
+  - chosen
+  - rejected

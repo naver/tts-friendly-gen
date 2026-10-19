@@ -1,0 +1,8 @@
+model-type: huggingface
+model-name: HuggingFaceTB/SmolLM3-3B
+data-dir: datasets/cora/cora
+cv: true
+num-cv: 5
+options:
+  - chosen
+  - rejected
