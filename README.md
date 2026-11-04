@@ -1,3 +1,8 @@
+## License
+
+tts-friendly-gen is released under the non-commercial license in LICENSE.txt.
+See NOTICE.txt for third-party materials and their terms.
+
 ## Repository description
 
 This repository contains the code and datasets associated to the paper titled **Ready to Speak: Aligning LLMs for TTS-Friendly Text Generation**, published at EMNLP 2026. For more details, the paper is available [here](https://arxiv.org/abs/2609.01246). If you found the code or datasets useful and want to refer to our work, please use the following citation:
