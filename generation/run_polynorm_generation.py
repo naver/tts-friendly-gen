@@ -1,3 +1,7 @@
+# tts-friendly-gen
+# Copyright (C) 2026 NAVER Corp.
+# Non-Commercial License (see LICENSE.txt)
+
 from transformers import AutoModelForCausalLM, AutoTokenizer
 import openai
 import argparse

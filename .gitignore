@@ -11,3 +11,4 @@ hparam-tuning/
 mix/
 full_dataset.csv
 en-US_groundtruth.jsonl
+.DS_Store

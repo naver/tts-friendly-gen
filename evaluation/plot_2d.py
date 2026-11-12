@@ -1,4 +1,7 @@
-#!/usr/bin/env python3
+# tts-friendly-gen
+# Copyright (C) 2026 NAVER Corp.
+# Non-Commercial License (see LICENSE.txt)
+
 """
 2D scatter plot: TTS-friendliness (x) vs Helpfulness (y) per model.
 

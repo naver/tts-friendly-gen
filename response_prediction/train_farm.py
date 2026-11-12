@@ -1,3 +1,7 @@
+# tts-friendly-gen
+# Copyright (C) 2026 NAVER Corp.
+# Non-Commercial License (see LICENSE.txt)
+
 from utils.features import *
 from datasets import load_dataset, DatasetDict
 import numpy as np

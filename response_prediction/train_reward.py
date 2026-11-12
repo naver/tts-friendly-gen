@@ -1,3 +1,7 @@
+# tts-friendly-gen
+# Copyright (C) 2026 NAVER Corp.
+# Non-Commercial License (see LICENSE.txt)
+
 # This file was derived and modified from HuggingFace's TRL (released
 # under Apache License 2.0), based on the following file:
 # https://github.com/huggingface/trl/blob/v1.0-release/examples/scripts/reward_modeling.py

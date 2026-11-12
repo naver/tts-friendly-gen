@@ -1,3 +1,7 @@
+# tts-friendly-gen
+# Copyright (C) 2026 NAVER Corp.
+# Non-Commercial License (see LICENSE.txt)
+
 CORA_AUTO_5DOT4_40 = {
     "direct_answer_relevance": {
       "attribute_desc": "How directly does the response answer the user's specific question or request without drifting to unrelated details?",

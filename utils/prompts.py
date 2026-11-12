@@ -1,3 +1,7 @@
+# tts-friendly-gen
+# Copyright (C) 2026 NAVER Corp.
+# Non-Commercial License (see LICENSE.txt)
+
 ########################## CORA GENERATION ##########################
 
 CORA_GEN_SYS_TEMPLATE = (

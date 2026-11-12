@@ -1,3 +1,7 @@
+# tts-friendly-gen
+# Copyright (C) 2026 NAVER Corp.
+# Non-Commercial License (see LICENSE.txt)
+
 import argparse
 from utils.features import *
 from utils.common import get_respond, get_feature_scorer
